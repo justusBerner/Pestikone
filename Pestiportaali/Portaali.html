@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pestiportaali I Kajo 2022</title>
+<link rel="stylesheet" href="../index.css">
+<link rel="stylesheet" href="../osal.css"> 
+    <style>
+        .confirmation {
+            background: #ffc728;
+            max-width: 450px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <div class="pestilomake">
+        <p>Osa-alue: <input placeholder="Elämys" class="lomake" type="text" id="firstName"
+             oninput = "confirmfirstName.value = firstName.value" ></p>  
+
+             <br>
+             
+             <p>Pestin nimi: <input placeholder="FB-kymppi" class="lomake" type="text" id="pestiName"
+                oninput = "confirmpestiName.value = pestiName.value" ></p> 
+
+                <br>
+
+                <p>Pestinkuvaus: <input placeholder="FB-kymppi" class="lomake" type="text" id="pestiName"
+                    oninput = "confirmpesiName.value = pestiName.value" ></p> 
+                
+                <br>
+                <p>Kuksalinkki: <input placeholder="https://kuksa.partio.fi/kotisivut/pestihakemus_edit.aspx?PREId=2009 " class="lomake" type="text" id="pestiName"
+                    oninput = "confirmpeiName.value = pestiName.value" ></p> 
+
+            </div>
+
+    </form>
+
+    <div class="pesti kortti2">
+
+        <div class="container">
+            <div class="pesti-kortti">
+                <div title="Pesti-kuvake: Keltainen " class="img-elamys">
+                    <h4 title="Osa-alue: Elämys" class="osa-alue-img">  <input class="osa-alue-input" type="text" id="confirmfirstName" readonly>
+                    </h4>
+                </div>
+                    <div class="content">
+                        <h4 title="Pestin nimi: FB-kymppi" class="pestin-nimi"><input class="pestinimi-input" type="text" id="confirmpestiName" readonly></h4> 
+                        <div title="pestikuvaus" class="pestikuvaus">
+                            Facebook-kymppinä vastaat Kajon Facebook-tilin kokonaisuudesta FB-tiimin kanssa. Osallistut tekemiseen aina ideoinnista ja suunnittelusta varsinaisiin postauksiin ja niiden julkaisemiseen. 
+                        </div> 
+                        <br>  
+                            <div class="button-container">
+                                <div class="like-button">
+                                    <a title="Lisää suosikkeihin" href="#"> <i title="Lisää suosikkeihin" class="fa fa-heart"></i></a>
+                                </div>
+                            <div title="Avaa pestihaku Kuksassa" class="kuksa-button">
+                                <a href=""><p>Avaa Kuksassa</p></a>
+                                <div class="link-button">
+                                    <i class="fas fa-external-link"></i>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+</body>
+</html>
